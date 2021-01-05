@@ -1,0 +1,21 @@
+GET http://localhost:5000/login
+
+###
+
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+  "username": "Test",
+  "password": "testpassword"
+}
+
+###
+
+POST http://localhost:5000/login/login
+Content-Type: application/json
+
+{
+  "username": "Test",
+  "password": "testpassword"
+}
